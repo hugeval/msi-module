@@ -1,0 +1,59 @@
+{
+  "name": "magento/module-msi",
+  "description": "Magento Multi source inventory.",
+  "type": "magento-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "require": {
+    "php": "~7.1.3|~7.2.0",
+    "composer/composer": "^1.6",
+    "magento/framework": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~7.0.0"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Magento\\Inventory\\": "src\\Inventory\\",
+      "Magento\\InventoryAdminUi\\": "src\\InventoryAdminUi\\",
+      "Magento\\InventoryApi\\": "src\\InventoryApi\\",
+      "Magento\\InventoryBundleProduct\\": "src\\InventoryBundleProduct\\",
+      "Magento\\InventoryCache\\": "src\\InventoryCache\\",
+      "Magento\\InventoryCatalog\\": "src\\InventoryCatalog\\",
+      "Magento\\InventoryCatalogAdminUi\\": "src\\InventoryCatalogAdminUi\\",
+      "Magento\\InventoryCatalogApi\\": "src\\InventoryCatalogApi\\",
+      "Magento\\InventoryCatalogSearch\\": "src\\nventoryCatalogSearch\\",
+      "Magento\\InventoryConfigurableProduct\\": "src\\InventoryConfigurableProduct\\",
+      "Magento\\InventoryConfigurableProductAdminUi\\": "src\\InventoryConfigurableProductAdminUi\\",
+      "Magento\\InventoryConfigurableProductIndexer\\": "src\\InventoryConfigurableProductIndexer\\",
+      "Magento\\InventoryConfiguration\\": "src\\InventoryConfiguration\\",
+      "Magento\\InventoryConfigurationApi\\": "src\\InventoryConfigurationApi\\",
+      "Magento\\InventoryGroupedProduct\\": "src\\InventoryGroupedProduct\\",
+      "Magento\\InventoryImportExport\\": "src\\InventoryImportExport\\",
+      "Magento\\InventoryIndexer\\": "src\\InventoryIndexer\\",
+      "Magento\\InventoryLowQuantityNotification\\": "src\\InventoryLowQuantityNotification\\",
+      "Magento\\InventoryLowQuantityNotificationAdminUi\\": "src\\InventoryLowQuantityNotificationAdminUi\\",
+      "Magento\\InventoryLowQuantityNotificationApi\\": "src\\InventoryLowQuantityNotificationApi\\",
+      "Magento\\InventoryMultiDimensionalIndexerApi\\": "src\\InventoryMultiDimensionalIndexerApi\\",
+      "Magento\\InventoryProductAlert\\": "src\\InventoryProductAlert\\",
+      "Magento\\InventoryReservations\\": "src\\InventoryReservations\\",
+      "Magento\\InventoryReservationsApi\\": "src\\InventoryReservationsApi\\",
+      "Magento\\InventorySales\\": "src\\InventorySales\\",
+      "Magento\\InventorySalesAdminUi\\": "src\\InventorySalesAdminUi\\",
+      "Magento\\InventorySalesApi\\": "src\\InventorySalesApi\\",
+      "Magento\\InventorySalesFrontendUi\\": "src\\InventorySalesFrontendUi\\",
+      "Magento\\InventoryShipping\\": "src\\InventoryShipping\\",
+      "Magento\\InventoryShippingAdminUi\\": "src\\InventoryShippingAdminUi\\",
+      "Magento\\InventorySourceDeductionApi\\": "src\\InventorySourceDeductionApi\\",
+      "Magento\\InventorySourceSelection\\": "src\\InventorySourceSelection\\",
+      "Magento\\InventorySourceSelectionApi\\": "src\\InventorySourceSelectionApi\\"
+
+    }
+  }
+}
