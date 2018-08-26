@@ -13,7 +13,7 @@ Installation for development
         }
     ]
     ```
-4. ```cd magento2; composer require magento/msi-module```
+4. ```cd magento2; composer require magento/module-msi```
 
 
 Note: composer will create symlinks to vendor folder with msi modules.
